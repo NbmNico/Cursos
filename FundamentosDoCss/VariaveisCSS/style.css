@@ -1,0 +1,36 @@
+:root{
+    --corPrincipal: #3498db;
+    --corClara: #ecf0f1;
+    --corEscura: #2c3e50;
+    --prenchimentoPQ: 1rem;
+    --prenchimentoMD: 2rem;
+    --prenchimentoLG: 3rem;
+    --prenchimentoXL: 4rem;
+    --textCenter: center;
+    --textLeft: left;
+}
+header{
+    background-color: var(--corEscura);
+    color: var(--corClara);
+    padding: var(--prenchimentoMD);
+    text-align: var(--textCenter);
+}
+section{
+    background-color: var(--corClara);
+    color: var(--corEscura);
+    padding: var(--prenchimentoMD);
+    text-align: var(--textCenter);
+}
+p,div{
+    text-align: var(--textLeft);
+    
+}
+div{
+    background-color: var(--corPrincipal);
+    padding: var(--prenchimentoPQ);
+    margin: var(--prenchimentoMD);
+    border-radius: 5px;
+}
+.red-box{
+    --corPrincipal: #e74c3c;
+}

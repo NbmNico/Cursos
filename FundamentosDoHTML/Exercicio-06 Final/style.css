@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(39, 38, 38);
+    color: aliceblue;
+}
+img{
+    width: 350px;
+}
+
+section{
+    background-color: rgba(74, 115, 226, 0.425);
+    color: aliceblue;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 6px #301b1b1a;
+}
+input{
+    border: 1px none;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+button{
+    border: 1px none;
+    border-radius: 5px;
+    width: 125px;
+    height: 28px;
+    background-color: rgb(210, 213, 218);
+}
+button:hover{
+    background-color: rgb(243, 244, 245);
+}
